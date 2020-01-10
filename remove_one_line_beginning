@@ -1,0 +1,3 @@
+awk 'NR > # { print }' < filename > tmp && mv tmp filename
+# where the # the number of lines to remove
+# and filename will change to what needed
